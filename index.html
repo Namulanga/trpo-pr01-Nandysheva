@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="site-header">
-            <div class="container header-container">
-                <a href="#" class="logo">Портал</a>
+        <header class="header">
+            <div class="box header-block">
+                <a href="#" class="logo-link">
+                    <img src="assets/logo.svg" alt="Портал" class="logo">
+                </a>
                 <nav aria-label="Основная навигация">
-                    <ul class="nav-list">
+                    <ul class="menu">
                         <li><a href="#about">О курсе</a></li>
                         <li><a href="#tracks">Направление</a></li>
                         <li><a href="#schedule">Расписание</a></li>
@@ -22,12 +24,55 @@
         </header>
     <main>
         <section id="about" class="section">
-            <div class="container hero-container">
-                <div class="hero-text">
+            <div class="box top-block">
+                <div class="top-info">
                     <h1>Технология разработки программного обеспечения</h1>
                     <p>Практическая №1:Освоение HTML,семантики,базового CSS</p>
                     </div>
-                <img src="assets/cover.svg" alt="Обложка курса" class="hero-cover">
+                <img src="assets/cover.svg" alt="Обложка курса" class="top-img">
+            </div>
+        </section>
+        <section id="tracks" class="page-section">
+            <div class="box">
+                    <h2>Направления обучения</h2>
+                <div class="cards-list">
+                <article class="card">
+                    <span class="category">Основа</span>
+                    <h3 class="title">HTML</h3>
+                    <p class="text">Структура и семантика документа</p>
+                    <div class="num">Баллы:<strong>8</strong></div>
+                </article>
+                <article class="card">
+                    <span class="category">Оформление</span>
+                    <h3 class="title">CSS</h3>
+                    <p class="text">Стили и адаптивность</p>
+                    <div class="num">Баллы: <strong>9</strong></div>
+                </article>
+                <article class="card">
+                    <span class="category">Инструменты</span>
+                    <h3 class="title">Git</h3>
+                    <p class="text">История изменений</p>
+                    <div class="num">Баллы: <strong>7</strong></div>
+                </article>
+                <article class="card">
+                    <span class="category">HTML</span>
+                    <h3 class="title">Forms</h3>
+                    <p class="text">Пользовательский ввод</p>
+                    <div class="num">Баллы: <strong>6</strong></div>
+                </article>
+                <article class="card">
+                    <span class="category">Качество</span>
+                    <h3 class="title">Accessibility</h3>
+                    <p class="text">Доступность интерфейса</p>
+                    <div class="num">Баллы: <strong>10</strong></div>
+                </article>
+                <article class="card">
+                    <span class="category">Проверка</span>
+                    <h3 class="title">DevTools</h3>
+                    <p class="text">Исследование DOM и стилей</p>
+                    <div class="num">Баллы: <strong>8</strong></div>
+                </article>
+            </div>
             </div>
         </section>
     </main>
